@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+    
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212139;
+    width: 100%;
+    height: 900px;
+}
+
+.header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+main {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    color: black;
+    text-align: center;
+    border: none;
+    width: 40%;
+    height: 40px;
+}
+.space-one {
+    width: 400px;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 13px;
+    vertical-align: top;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.btn:hover {
+    background-color: #212121;
+    color: #ffffff;
+    
+}
+/*DIV PARA GENERAR USUARIOS*/
+.div-input_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 2250px;
+    max-height: 100%;
+}
+.div-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-p_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**/
+
+/*CALCULAR CARGA*/
+.div-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0px 0px 15px;
+    color: #17b517;
+}
+/**/
+.h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-alias {
+    width: 100%;
+}
+
+.div-alias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textarea-alias {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+    resize: none;
+}
+
+.button-alias {
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 13px;
+    vertical-align: top;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.button-alias:hover {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.button-copy {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
